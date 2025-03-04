@@ -31,9 +31,9 @@ retriever = vectorstore.as_retriever()
 # Initialize OpenAI LLM
 from langchain_openai import ChatOpenAI
 #from google.colab import userdata
-#openai_api = userdata.get('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')
 
-llm = ChatOpenAI(api_key="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")
+
+llm = ChatOpenAI(api_key="Enter your OpenAI Key")
 
 # Create Retrieval Chain
 prompt_search_query = ChatPromptTemplate.from_messages([
