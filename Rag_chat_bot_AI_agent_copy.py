@@ -111,7 +111,7 @@ def get_ai_agent_response(query):
 
     agent = initialize_agent(
         tools=tools,
-        llm=ChatOpenAI(api_key="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"),
+        llm=ChatOpenAI(api_key=""),
         agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
         memory=memory,
         verbose=True,
