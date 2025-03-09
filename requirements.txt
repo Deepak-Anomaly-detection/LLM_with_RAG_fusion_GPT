@@ -1,0 +1,8 @@
+streamlit
+langchain
+langchain_openai
+langchain_chroma
+langchain_huggingface
+langchain_community
+googlesearch-python
+asyncio
