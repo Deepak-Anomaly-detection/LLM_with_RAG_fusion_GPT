@@ -1,5 +1,5 @@
 # Install Required Libraries
-#!pip install -qqq langchain_openai langchain_chroma langchain_huggingface
+!pip install -qqq langchain_openai langchain_chroma langchain_huggingface
 
 import os
 import streamlit as st
